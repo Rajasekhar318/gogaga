@@ -331,3 +331,54 @@
     }
   }
   
+
+  /* Styles for Upcoming Packages Section */
+.upcoming-packages {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .upcoming-packages h2 {
+    margin-bottom: 20px;
+  }
+  
+  .package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .package-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: calc(33% - 20px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .package-item h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .package-item p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .package-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .package-link:hover {
+    background-color: #0056b3;
+  }
+  
